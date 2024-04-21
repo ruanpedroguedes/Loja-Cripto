@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>CriptoVerse</title>
+          <link rel="icon" href="img/logocrip.png" type="image/png">
+          <link rel="stylesheet" href="styles/pagamento/index.css">
+</head>
+<body>
+          <header>
+                    <div class="menu">
+                        <div class="left-side-menu">
+                            <div class="logo">
+                                <img src="img/logocrip.png" style="width: 35px; height: auto;">
+                                <img src="img/logocv2.png" style="width: 120px; height: auto;">
+                            </div>
+                            <nav>
+                                <ul>
+                                    <li><a href="home.html">Moedas</a></li>
+                                    <li><a href="sobre.html">Sobre</a></li>
+                                    <li><a href="noticias.html">Notícias</a></li>
+                                    <li><a href="contato.html">Contatos</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="right-side-menu">
+                            <a onclick="finalizarCompra()" href="pagamento.html"><img src="img/carrinho.png" alt="" style="width: 30px; height: auto;"></a>
+                            <a href="perfil.html" class="iconavatar"><img src="img/avatar.png" alt="" style="width: 50px; height: auto;"></a>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+          </header>
+
+          <main id="mensagem">
+                    <h1>Pagamento de Criptomoedas</h1>
+
+                    <div id="detalhes-compra">
+                    <p style="color: black;">Bitcoin (BTC) - Quantidade: <span id="btc-quantidade"></span></p>
+                    <p style="color: black;">Ethereum (ETH) - Quantidade: <span id="eth-quantidade"></span></p>
+                    <p style="color: black;">Bnb (BNB) - Quantidade: <span id="bnb-quantidade"></span></p>
+                    <p style="color: black;">Solana (Sol) - Quantidade: <span id="sol-quantidade"></span></p>
+                    </div>
+
+                    <p style="color: rgb(23, 235, 101);">Total a pagar: $<span id="total-a-pagar"></span></p>
+
+          </main>
+          
+          <script src="js/pagamento/pagamento.js"></script>
+</body>
+</html>

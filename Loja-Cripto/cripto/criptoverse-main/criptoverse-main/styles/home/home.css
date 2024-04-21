@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    height: 75px;
+}
+
+.left-side-menu {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-side-menu {
+    display: flex;
+    align-items: center;
+}
+
+.iconavatar img {
+    width: 36px;
+}
+
+.line {
+    height: 1px;
+    background-color: dodgerblue;
+    width: 90%;
+    align-self: center;
+    margin: 20px 0;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 100px; /* Adiciona um espaçamento de 100px acima das imagens */
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px; /* Defina a largura desejada para cada imagem */
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Adiciona um espaçamento abaixo da imagem */
+}
+
+
+.amount1,
+.amount2,
+.amount3,
+.amount4 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px; /* Adiciona um espaçamento acima dos botões */
+}
+
+.button1,
+.button2,
+.button3,
+.button4 {
+    display: inline-block;
+    text-decoration: none;
+    color: dodgerblue;
+    background-color: #2E2E2E;
+    padding: 5px 10px; /* Altera o espaçamento interno dos botões */
+    border-radius: 10px;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 190px;
+    padding-top: 50px;
+}
+
+#criptomoedas{
+    background-color: #2e2e2e4b;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.criptomoeda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#eth-quantidade{
+    margin-right: 50px;
+}
+
+#btc-quantidade{
+    margin-right: 50px;
+}
+
+#bnb-quantidade{
+    margin-right: 50px;
+}
+
+#sol-quantidade{
+    margin-right: 50px;
+}
+
+.cripimg{
+    margin-left: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 160px;
+    height: 20px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logocrip.png" type="image/png">
+    <title>CriptoVerse</title>
+    <link rel="stylesheet" href="styles/home/home.css">
+    <link rel="stylesheet" href="styles/caixa/index.css">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="left-side-menu">
+                <div class="logo">
+                    <img src="img/logocrip.png" style="width: 35px; height: auto;">
+                    <img src="img/logocv2.png" style="width: 120px; height: auto;">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Moedas</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="noticias.html">Notícias</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-side-menu">
+                <a onclick="finalizarCompra()" href="pagamento.html"><img src="img/carrinho.png" alt="" style="width: 30px; height: auto;"></a>
+                <a href="perfil.html" class="iconavatar"><img src="img/avatar.png" alt="" style="width: 50px; height: auto;"></a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </header>
+    <main>
+        <div id="criptomoedas">
+            <div class="criptomoeda">
+                <div class="container">
+                    <img class="cripimg" width="80px" src="img/Bitcoin.png" alt="Bitcoin" class="imagem" id="imagem">
+                    <div class="tooltip" id="tooltip">Tedência de Crescimento +2%</div>
+                </div>
+                
+                <p style="color: white;">Bitcoin (BTC) - $50,000</p>
+                <input type="number" id="btc-quantidade" placeholder="Quantidade">
+            </div>
+            <div class="criptomoeda">
+                <div class="container1">
+                    <img class="cripimg" width="80px" src="img/ethereum.png" alt="Ethereum" class="imagem1" id="imagem1">
+                    <div class="tooltip1" id="tooltip1">Tedência de Crescimento +12%</div>
+                </div>
+               
+                <p style="color: white;">Ethereum (ETH) - $3,000</p>
+                <input type="number" id="eth-quantidade" placeholder="Quantidade">
+            </div>
+            <div class="criptomoeda">
+                <div class="container2">
+                    <img class="cripimg" width="80px" src="img/bnb.png" alt="bnb" class="imagem2" id="imagem2">
+                    <div class="tooltip2" id="tooltip2">Tedência de Queda -7%</div>
+                </div>
+              
+                <p style="color: white;">BNB (BNB) - $500</p>
+                <input type="number" id="bnb-quantidade" placeholder="Quantidade">
+            </div>
+            <div class="criptomoeda">
+                <div class="container3">
+                    <img class="cripimg" width="80px" src="img/solana2.png" alt="solona" class="imagem3" id="imagem3">
+                    <div class="tooltip3" id="tooltip3">Tedência de Queda -4.89%</div>
+                </div>
+                
+                <p style="color: white;">Solana (sol) - $1000</p>
+                <input type="number" id="sol-quantidade" placeholder="Quantidade">
+            </div>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 CriptoVerse. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="js/home/finalizarcompra.js"></script>
+    <script src="js/caixas/index.js"></script>
+</body>
+</html>

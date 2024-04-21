@@ -1,0 +1,118 @@
+body {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          background-color: black;
+          font-weight: bold;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+      
+      header {
+          display: flex;
+          flex-direction: column;
+      }
+      
+      .menu {
+          display: flex;
+          justify-content: space-between;
+          padding: 0 5%;
+          align-items: center;
+          height: 75px;
+      }
+      
+      .left-side-menu {
+          display: flex;
+          align-items: center;
+          gap: 220px;
+      }
+      
+      .logo {
+          display: flex;
+          align-items: center;
+      }
+      
+      nav {
+          text-align: center;
+      }
+      
+      nav ul {
+          display: flex;
+          gap: 30px;
+          list-style-type: none;
+          padding: 0;
+      }
+      
+      nav ul li a {
+          text-decoration: none;
+          color: white;
+      }
+      
+      .right-side-menu {
+          display: flex;
+          align-items: center;
+      }
+      
+      .iconavatar img {
+          width: 36px;
+      }
+      
+      .line {
+          height: 1px;
+          background-color: dodgerblue;
+          width: 90%;
+          align-self: center;
+          margin: 20px 0;
+      }
+      
+      .container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-top: 50px;
+      }
+      
+      .text {
+          color: white;
+      }
+      
+      .image {
+          margin-top: 20px;
+      }
+      
+      footer {
+          background-color: dodgerblue;
+          color: white;
+          padding: 20px 0;
+          text-align: center;
+      }
+      
+      .footer-content {
+          max-width: 1200px;
+          margin: 0 auto;
+      }
+
+      
+      #content04{
+          height: 460px;
+          font-family:  'Vidaloka', serif;
+          color: white;
+      }@media screen and (max-width: 768px) {
+          #content04 {
+            height: 280px; /* Tamanho para telas menores */
+            padding-bottom: 0;
+          }
+        }
+      .video_rec_n_play{
+          border-radius: 7px;
+          width: 800px;
+          height: 415px
+      }@media screen and (max-width: 768px) {
+          .video_rec_n_play {
+            height: 200px; /* Tamanho para telas menores */
+          }
+          #div_video_recnplay{
+              padding-top: 40px;
+              padding-bottom: 0;
+          }
+        }
