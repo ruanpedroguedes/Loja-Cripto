@@ -1,0 +1,40 @@
+.carousel-container {
+          width: 80%;
+          height: 500px;
+          margin: auto;
+          position: relative; /* Para posicionar os botões */
+          overflow: hidden;
+      }
+      
+      .carousel-slide {
+          display: flex;
+          width: 300%; /* Largura total é igual à largura de uma imagem multiplicada pelo número de imagens */
+          transition: transform 0.5s ease;
+      }
+      
+      .carousel-slide img {
+          width: 100%;
+          object-fit: cover; /* Mantém a proporção da imagem */
+      }
+      
+      #prevBtn,
+      #nextBtn {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          background-color: rgba(0, 0, 0, 0.5);
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          cursor: pointer;
+      }
+      
+      #prevBtn {
+          left: 0;
+      }
+      
+      #nextBtn {
+          right: 0;
+      }
+      
+      
